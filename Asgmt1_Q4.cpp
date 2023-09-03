@@ -9,27 +9,23 @@ int main(){
 \n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Absolute Value"<<endl;
     cin>>n;
 
-    if (n==1){
+    if (n<=4 && n>0){
         cout<<"\nEnter 1st number and 2nd number:"<<endl;
         cin>>a>>b;
+    }
+    if (n==1){
         res=a+b;
         cout<<"\nThe result is: "<<res<<endl;
     }
     else if (n==2){
-        cout<<"\nEnter 1st number and 2nd number:"<<endl;
-        cin>>a>>b;
         res=a-b;
         cout<<"\nThe result is: "<<res<<endl;
     }
     else if (n==3){
-        cout<<"\nEnter 1st number and 2nd number:"<<endl;
-        cin>>a>>b;
         res=a*b;
         cout<<"\nThe result is: "<<res<<endl;
     }
     else if (n==4){
-        cout<<"\nEnter 1st number and 2nd number:"<<endl;
-        cin>>a>>b;
         if (b!=0){
             res=a/b;
             cout<<"\nThe result is: "<<res<<endl;
