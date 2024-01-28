@@ -18,7 +18,7 @@ int main(){
 
     cout<<"\nHello "<<name<<", I see you are "<<age<<" years old\
  and are currently studying at "<<college;
-
+ //lolsjfdkzgidhi fnkrfsno
     return 0;
 
 }
